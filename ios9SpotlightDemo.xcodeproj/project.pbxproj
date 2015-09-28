@@ -15,6 +15,8 @@
 		5CDEDC661BB8E24A009883F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CDEDC641BB8E24A009883F2 /* LaunchScreen.storyboard */; };
 		5CDEDC711BB8E24A009883F2 /* ios9SpotlightDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CDEDC701BB8E24A009883F2 /* ios9SpotlightDemoTests.m */; };
 		5CDEDC7C1BB8E24A009883F2 /* ios9SpotlightDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CDEDC7B1BB8E24A009883F2 /* ios9SpotlightDemoUITests.m */; };
+		5CDEDC8B1BB8E402009883F2 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CDEDC8A1BB8E402009883F2 /* FirstViewController.m */; settings = {ASSET_TAGS = (); }; };
+		5CDEDC8E1BB8E40D009883F2 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CDEDC8D1BB8E40D009883F2 /* SecondViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		5CDEDC771BB8E24A009883F2 /* ios9SpotlightDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios9SpotlightDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CDEDC7B1BB8E24A009883F2 /* ios9SpotlightDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios9SpotlightDemoUITests.m; sourceTree = "<group>"; };
 		5CDEDC7D1BB8E24A009883F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CDEDC891BB8E402009883F2 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		5CDEDC8A1BB8E402009883F2 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		5CDEDC8C1BB8E40D009883F2 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		5CDEDC8D1BB8E40D009883F2 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				5CDEDC641BB8E24A009883F2 /* LaunchScreen.storyboard */,
 				5CDEDC671BB8E24A009883F2 /* Info.plist */,
 				5CDEDC561BB8E24A009883F2 /* Supporting Files */,
+				5CDEDC891BB8E402009883F2 /* FirstViewController.h */,
+				5CDEDC8A1BB8E402009883F2 /* FirstViewController.m */,
+				5CDEDC8C1BB8E40D009883F2 /* SecondViewController.h */,
+				5CDEDC8D1BB8E40D009883F2 /* SecondViewController.m */,
 			);
 			path = ios9SpotlightDemo;
 			sourceTree = "<group>";
@@ -270,9 +280,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CDEDC8E1BB8E40D009883F2 /* SecondViewController.m in Sources */,
 				5CDEDC5E1BB8E24A009883F2 /* ViewController.m in Sources */,
 				5CDEDC5B1BB8E24A009883F2 /* AppDelegate.m in Sources */,
 				5CDEDC581BB8E24A009883F2 /* main.m in Sources */,
+				5CDEDC8B1BB8E402009883F2 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
